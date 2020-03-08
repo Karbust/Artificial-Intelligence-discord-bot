@@ -1,0 +1,79 @@
+{
+    "footer": "Save the planet by ordering trees (the owner plants them in real life and you get a picture)!",
+    "version": "V0.0.11",
+    "status": "/help | https://aibot.tk/ ",
+    "whitelist": ["425165710847770634"],
+    "error": "an error threw while running this command, please report the error to the support server. Error:",
+    "dmerror": "an error threw while running this command, but I don't have permission to send it in the channel. Please report the error to the support server. Error:",
+    "invite": "https://discordapp.com/oauth2/authorize?client_id=543071379294126080&scope=bot&permissions=402713671&redirect_uri=https://shortrsg.cf%2Fdiscord",
+
+    "default": {
+        "reason": "No reason given",
+        "embed": {
+            "error": {
+                "color": "ff0000"
+            },
+            "color": "00ffff"
+        }
+    },
+    "economy": {
+        "work": {
+            "money": {
+                "max": "200"
+            },
+            "cooldown": "300000",
+            "positive": ["You've worked for "]
+        },
+        "slut": {
+            "money": {
+                "max": "200",
+                "min": "100",
+                "chance": "60"
+            },
+            "cooldown": "300000",
+            "positive": ["A slut paid you for having sex and earned "],
+            "negative": ["You've slut but got stolen "]
+        },
+        "crime": {
+            "money": {
+                "max": "500",
+                "min": "300",
+                "chance": "40"
+            },
+            "cooldown": "300000",
+            "positive": ["You've crimed for "],
+            "negative": ["You've crimed but got stolen "]
+        }
+    },
+    "noPermission": {
+        "manage": "I cannot manage this user! Do they have a higher role? Do I have enough permissions?",
+        "kick": "I cannot kick this user! Do they have a higher role? Do I have kick permissions?",
+        "ban": "I cannot ban this user! Do they have a higher role? Do I have ban permissions?",
+        "edit": "I cannot manage this role! Is it a higher role? Do I have enough permissions?",
+        "manageRole": "I cannot manage roles! Do I have `MANAGE ROLES` permissions?",
+        "files": "I cannot attach files! Do I have `ATTACH FILES` permissions?",
+        "mm": "I cannot delete messages! Do I have `MANAGE MESSAGES` permissions?",
+        "nicknames": "I cannot change nicknames! Do I have `MANAGE NICKNAMES` permissions?"
+    },
+    "shortcuts": ["addcc -> addcustomcommand","listcc -> listcustomcommand","removecc -> removecustomcommand","rr -> reactionrole","growth -> membergrowth"],
+    "videos": [
+        {"name":"customcommands", "video":"https://youtu.be/X3LVWxhDeKE"},
+        {"name":"timers", "video":"https://youtu.be/X3LVWxhDeKE"},
+        {"name":"verify", "video":"https://youtu.be/oIDqs5Z8zF8"},
+        {"name":"mod commands", "video":"https://youtu.be/ZCYNOKpBmlk"}
+    ],
+    "usage": [
+        {"name": "commandName", "description": "1 word of the command (example: `help`)"},
+        {"name": "response", "description": "a sentence or a word to respond (max characters = 1000)(example: `for help type /help`)"},
+        {"name": "reason", "description": "sentence with the reason (example: `using commands in lounge`)"},
+        {"name": "roleName", "description": "the name of a role ()(example: `bots`)"},
+        {"name": "nickName", "description": "a nickname (example: `RobinSch`)"},
+        {"name": "user", "description": "mention or id (example: `@RobinSch#7994`)"},
+        {"name": "time", "description": "dd:hh:mm or hh:mm. (1d / 1h / 1m / 1s alone (so **not** 1d1h) also supported)"},
+        {"name": "number", "description": "a number (example: `10`)"},
+        {"name": "{membercount}", "description": "the membercount of the server"},
+        {"name": "{mention}", "description": "the mention of the user that joined/left"},
+        {"name": "{username}", "description": "the username of the user that joined/left"},
+        {"name": "{nickname}", "description": "the nickname of the user that joined/left"}
+    ]
+}
