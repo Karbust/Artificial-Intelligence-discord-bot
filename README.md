@@ -37,7 +37,8 @@ node .
 ## Authors
 
 * **Robin Schapendonk** - *Coding the bot* - [RobinSchapendonkGames](https://github.com/RobinSchapendonkGames)
+* **VimHax** - *Creating the graph function* - [VimHax](https://github.com/vimhax)
 
 ## License
 
-This project is licensed under the GNU GENERAL PUBLIC LICENSE License (GNU GPLv3) - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU GENERAL PUBLIC LICENSE License (GNU GPLv3) - see the [LICENSE](LICENSE) file for details
