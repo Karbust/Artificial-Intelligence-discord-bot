@@ -263,6 +263,7 @@ client.on('ready', async () => {
     })
   })
   mongoose.connect(secrets.mongoDBconnection, { useNewUrlParser: true, useUnifiedTopology: true });
+});
 if(secrets.dbl.webhookName !== "" && secrets.dbl.webhookAuth !== "") {
     const dbl = new DBL(secrets.dbl.webhookName, { webhookPort: 2020, webhookAuth: secrets.dbl.webhookAuth }, client);
     dbl.webhook.on('ready', hook => {
